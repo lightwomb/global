@@ -1,0 +1,37 @@
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+button#sitemap {
+	background-color:rgba(0,0,0,0);
+	border-radius:5px;
+	border: none;
+}
+
+button#expand {
+	background-color:rgba(0,0,0,0);
+	border-radius:5px;
+	border: none;
+}
+
+.in_sub_dir {
+	font-family:'Jura';
+	font-size:10px;
+}
+	li.in_sub_dir {
+		padding-left:10px;
+		list-style:none;
+	}
+	a.in_sub_dir  {
+		font-size:10px;
+	}
+
+.in_root_dir {
+	font-family:'Jura';
+}
+	li.in_root_dir {
+		padding-top:0px;
+		list-style:none;
+	}
+	a.in_root_dir {
+		font-size:12px;
+	}

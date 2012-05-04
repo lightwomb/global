@@ -1,0 +1,97 @@
+.rando {
+text-align: left;
+position: relative;
+margin: 0px 0px 0px 0px;
+font-family: 'Jura',sans-serif;
+border-radius: 6px;
+border: 1px solid rgba(155,0,155,.1);
+overflow: hidden;
+}
+	.rando h2 {
+		text-align:center;
+		border-radius:5px;
+		padding-top:3px;
+		vertical-align: center;
+		background-color: #000;
+		color: #fff;
+	}
+	.rando h2:hover {
+		background-color: #aaa;
+		color: #000;
+	}
+	.rando p {
+		padding:10px 0 0 0;
+	}
+
+.rando_title {
+background-color: rgba(50,50,100,.4);
+border-radius: 5px 5px 0px 0px;
+color: rgb(255,255,255);
+padding: 10px 20px 10px 20px;
+letter-spacing: 2px;
+position: relative;
+text-align: right;
+font-weight: bold;
+font-family: 'Jura';
+line-height: 125%;
+font-size: 16px;
+-webkit-box-shadow: inset 0 0 10px rgba(255,255,255,0.9);
+}
+.rando_titleR {
+color: rgb(0,0,0);
+padding: 14px 0px 14px 20px;
+letter-spacing: 2px;
+position: relative;
+text-align: right;
+font-family: 'Audiowide';
+line-height: 125%;
+font-size: 20px;
+-webkit-box-shadow: inset 0 0 10px rgba(255,255,255,0.9);
+text-shadow: 1px 1px 2px rgba(20,20,20,.65);
+}
+.rando_titleL {
+color: rgb(0,0,0);
+padding: 14px 0px 14px 0px;
+letter-spacing: 2px;
+position: relative;
+text-align: left;
+line-height: 125%;
+font-size: 20px;
+-webkit-box-shadow: inset 0 0 10px rgba(255,255,255,0.9);
+text-shadow: -1px 1px 3px rgba(20,75,20,.65);
+}
+.rando_text {/*
+color:rgba(255,0,255,.05);*/
+color:rgb(100,100,100);
+letter-spacing: 2px;
+font-family: 'Josefin Sans';
+font-size: 16px;
+font-weight: normal;
+line-height: 125%;
+padding: 10px 20px 10px 20px;
+position: relative;
+text-align: left;
+border-radius: 0px 0px 5px 5px;
+-webkit-box-shadow: inset -2px 2px 8px rgba(100,100,140,0.1);
+}
+.align_R {
+	text-align:right;
+}
+.rando_textR {
+color:rgb(100,100,100);
+letter-spacing: 2px;
+font-family: 'Josefin Sans';
+font-size: 16px;
+font-weight: normal;
+line-height: 125%;
+position: relative;
+text-align: right;
+}
+.short {
+display: inline;
+font-size: 35px;
+font-weight: bold;
+letter-spacing: 5px;
+padding: 15px 0px 20px 0px;
+text-shadow: 1px 1px 2px rgb(20,20,20);
+}

@@ -1,0 +1,125 @@
+html {
+overflow-y: scroll;
+}
+a {
+text-decoration: none;
+}
+#main_grid {
+}
+.laid {
+background-image: url('../../../ooo.svg');
+background-repeat:no-repeat;
+opacity:.5;
+}
+header {
+width: 100%;
+background-color: #000;
+color: #fff;
+z-index:1000;
+}
+ header a {
+	color:#fff;
+	float:right;
+	margin: 35px 20px 0px 0px;
+	font-family: Josefin Sans;
+}
+#welcome {
+position:absolute;
+top:0;
+width: 100%;
+background-color: #00c;
+color: #fff;
+display: none;
+}
+.init_top {
+/* generated dynamically with javascript*/
+}
+.fixedbanner {
+position: fixed;
+}
+.absolutebanner {
+position: absolute;
+}
+.lightwomb {
+	padding: 20px;
+	letter-spacing: 2px;
+	font-family: 'Jura', sans-serif;
+	font-size: 32px;
+	text-align: left;
+}
+nav {
+	z-index:10;
+}
+nav#main_links {
+width: 100%;
+padding:10px 0px;
+background: #aaa;
+letter-spacing:2px;
+text-align: center;
+text-decoration: none;
+}
+	nav#main_links a {
+	display: inline;
+	margin: 0px 5% 0px 0px;
+	position: relative;
+	font-family: 'Josefin Sans';
+	color:#fff;
+	font-size: 14px;
+	}
+		nav#main_links a:hover {
+		color: #00f;
+		}
+		nav#main_links a:visited {
+		color: #fff;
+		}
+		
+.col_mission {
+color: rgba(0,0,0,.6);
+padding: 0px 0px 20px 0px;
+letter-spacing: 2px;
+line-height: 200%;
+position: relative;
+text-align: left;
+font-weight: bold;
+font-family: 'Jura';
+font-size: 22px;
+}
+
+.col_content {
+color: rgba(100,100,100,1);
+font-family:'Jura';
+font-size: 16px;
+line-height: 125%;
+overflow: hidden;
+padding: 0px 0px 0px 0px;
+position: relative;
+text-align: justify;
+}
+	.col_content h1 {
+		font-family: 'Audiowide';
+		color: rgb(0,0,0);
+		padding: 14px 0px 14px 0px;
+		letter-spacing: 2px;
+		position: relative;
+		text-align: left;
+		line-height: 125%;
+		font-size: 20px;
+		text-shadow: -1px 1px 3px rgba(20,75,20,.65);
+	}
+	.col_content img {
+		border-radius:5px;
+	}
+	.col_content .user_list li {
+		letter-spacing: 1.5px;
+		font-family: 'Josefin Sans';
+		font-weight: normal;
+		line-height: 125%;
+		text-align: right;
+	}
+
+.incog {
+display:inline;
+font-size:14px;
+text-shadow:none;
+font-family:'Jura';
+}
