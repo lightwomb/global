@@ -40,7 +40,7 @@ require_once(GLOBAL_INCLUDES.DS.'functions/functions.php');
 require_once(GLOBAL_INCLUDES.DS.'php-classes'.DS.'session.php');
 
 require_once(GLOBAL_INCLUDES.DS.'php-classes'.DS.'database.php');
-require_once(GLOBAL_INCLUDES.DS.'php-classes'.DS.'database_object.php');
+//require_once(GLOBAL_INCLUDES.DS.'php-classes'.DS.'database_object.php');
 require_once(GLOBAL_INCLUDES.DS.'php-classes'.DS.'pagination.php');
 
 require_once(GLOBAL_INCLUDES.DS.'php-classes'.DS.'user.php');
