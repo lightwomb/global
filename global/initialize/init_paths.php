@@ -1,4 +1,3 @@
-<?php
 /*
 initialize_paths.php _________________
 
@@ -44,6 +43,3 @@ defined('GLOBAL_CSS_custom') 	? null : define('GLOBAL_CSS_custom', 	GLOBAL_CSS .
 defined('GLOBAL_PDE_custom') 	? null : define('GLOBAL_PDE_custom', 	GLOBAL_DIR .DS. 'pde');
 
 defined('PUBLIC_PAGES') 	? null : define('PUBLIC_PAGES', 	SITE_ROOT .DS. '~');
-
-
-?>
