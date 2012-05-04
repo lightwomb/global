@@ -1,6 +1,5 @@
 <?php
 /*
-
 initialize_paths.php _________________
 
 CREATED BY:
@@ -18,7 +17,7 @@ By doing so, we provide an easy way to work in different development environment
 -	Sets Local Paths that can be initialized from anywhere
 
 */
-
+echo 'I am initializing!';
 $title_global = 'Lightwomb';
 defined('GLOBAL_TITLE') ? null : define('GLOBAL_TITLE', $title_global);
 
